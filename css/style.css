@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.calc{
+    margin: 50px auto;
+    max-width: 420px;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(51 51 51);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: rgb(34, 34, 34);
+}
+.oprator div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: res;
+}
+.oprator div span{
+    border: 1px solid #ccc;
+    width: max-content;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 1px 2px rgb(71, 71, 71);
+    transition: all 1s;
+}
+.oprator div span:hover{
+    background-color: rgb(126, 126, 126);
+}
+.screen{
+    background-color: rgb(201, 201, 201);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-around;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.screen1{
+    padding: 0 20px;
+}
+.screen2{
+    padding: 0 20px;
+}
+
+@media all and (max-width : 750px){
+    .calc{
+        margin: 50px auto;
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        background-color: rgb(51 51 51);
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: rgb(34, 34, 34);
+    }
+    .oprator div span{
+        padding: 5px;
+        margin: 5px;
+    }
+}
